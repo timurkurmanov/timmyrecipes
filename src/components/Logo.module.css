@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Shadows+Into+Light&display=swap');
+.LogoWrapper{
+    height: 10vh;
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Logo h3{
+    font-size: 40px;
+}
+.Logo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Logo:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease all;
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.SocialItem{
+    font-size: 40px;
+    padding: 20px;
+}
+.Social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+    color: #fff;
+}
+.Logo:hover{
+
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Silkscreen&display=swap');
+.SearchWrapper{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.SearchItem{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.SearchItem form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 5vh;
+    width: 50%;
+}
+span svg{
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.SearchItem input{
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    background: none;
+    color: #fff;
+    width: 100%;
+}

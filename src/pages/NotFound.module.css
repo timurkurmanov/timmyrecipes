@@ -1,0 +1,10 @@
+.NotFoundWrapper{
+    height: 30vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

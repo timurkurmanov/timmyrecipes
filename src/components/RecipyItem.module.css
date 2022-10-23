@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&family=Silkscreen&display=swap');
+.RecipyItemWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 90%;
+    height: 30vh;
+    margin: 30px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.RecipyItemTitle{
+    height: 10vh;
+}
+.RecipyItemTitle h3{
+    font-weight: 400;
+
+}
+.RecipyItemImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.RecipyItemImage img{
+    width: 100%;
+}
+.RecipyItemWrapper:hover{
+
+    opacity: 0.7;
+    transform: scale(1.05);
+    transition: 0.3s ease all;
+}
